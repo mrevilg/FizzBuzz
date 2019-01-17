@@ -2,7 +2,7 @@
 A few approaches to the classic question in C#
 
 
-static void Main(string[] args)
+    static void Main(string[] args)
         {
             for (int i = 1; i < 100; i++)
             {
@@ -28,7 +28,7 @@ static void Main(string[] args)
         
        /*  code break   */
         
- static void Main(string[] args)
+     static void Main(string[] args)
         {
             for (int i = 1; i < 100; i++)
             {
