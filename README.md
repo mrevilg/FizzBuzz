@@ -1,6 +1,6 @@
 # FizzBuzz
 
-A few approaches to the classic question in C#
+A few approaches to the classic question in C# and Python
 
 #1 we have a simple yet juvenile approach.
 
