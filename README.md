@@ -1,6 +1,7 @@
 # FizzBuzz
 A few approaches to the classic question in C#
 
+#1 we have a simple yet juvenile approach.
 
     static void Main(string[] args)
         {
@@ -26,7 +27,7 @@ A few approaches to the classic question in C#
         }
         
         
-       /*  code break   */
+#2 Effective but inefficient, note the duplicate call-out
         
      static void Main(string[] args)
         {
@@ -51,7 +52,7 @@ A few approaches to the classic question in C#
             }
         }
         
-       /*  code break   */
+#3 True to intent and named variables
        
        static void Main(string[] args)
         {
@@ -81,7 +82,7 @@ A few approaches to the classic question in C#
             Console.ReadLine();
         }
        
-    /*  code break   */
+#4 An attempt at leveraging line spacing architecture, efficient and transparent.
     
     static void Main(string[] args)
         {
