@@ -1,4 +1,5 @@
 # FizzBuzz
+
 A few approaches to the classic question in C#
 
 #1 we have a simple yet juvenile approach.
@@ -27,7 +28,7 @@ A few approaches to the classic question in C#
         }
         
         
-#2 Effective but inefficient, note the duplicate call-out
+#2 Effective but inefficient, note the duplicate call-out.
         
      static void Main(string[] args)
         {
@@ -52,7 +53,7 @@ A few approaches to the classic question in C#
             }
         }
         
-#3 True to intent and named variables
+#3 True to intent and named variables.
        
        static void Main(string[] args)
         {
