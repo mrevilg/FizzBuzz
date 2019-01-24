@@ -6,30 +6,30 @@ A few approaches to the classic question in C# and Python
 
 #1 we have a simple yet juvenile approach.
     
-    
-    static void Main(string[] args)
-        {
-            for (int i = 1; i < 100; i++)
+    ```C#
+        static void Main(string[] args)
             {
-                if (i % 15 == 0) //I feel this is lazy coding
+                for (int i = 1; i < 100; i++)
                 {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (i % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else if (i % 3 == 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else
-                {
-                    Console.WriteLine(i);
+                    if (i % 15 == 0) //I feel this is lazy coding
+                    {
+                        Console.WriteLine("FizzBuzz");
+                    }
+                    else if (i % 5 == 0)
+                    {
+                        Console.WriteLine("Buzz");
+                    }
+                    else if (i % 3 == 0)
+                    {
+                        Console.WriteLine("Fizz");
+                    }
+                    else
+                    {
+                        Console.WriteLine(i);
+                    }
                 }
             }
-        }
-        
+       ``` 
         
 #2 Effective but inefficient, note the duplicate call-out.
      
