@@ -6,7 +6,7 @@ A few approaches to the classic question in C# and Python
 
 #1 we have a simple yet juvenile approach.
     
-    ```C#
+
         static void Main(string[] args)
             {
                 for (int i = 1; i < 100; i++)
@@ -29,7 +29,7 @@ A few approaches to the classic question in C# and Python
                     }
                 }
             }
-       ``` 
+
         
 #2 Effective but inefficient, note the duplicate call-out.
      
