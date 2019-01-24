@@ -2,6 +2,8 @@
 
 A few approaches to the classic question in C# and Python
 
+## C# Source Code
+
 #1 we have a simple yet juvenile approach.
 
     static void Main(string[] args)
@@ -84,7 +86,7 @@ A few approaches to the classic question in C# and Python
         }
        
 #4 An attempt at leveraging line spacing architecture, efficient and transparent.
-    
+```C#    
     static void Main(string[] args)
         {
             for (var i = 1; i <= 100; i++)
@@ -109,6 +111,6 @@ A few approaches to the classic question in C# and Python
 
             Console.ReadLine();
         }
+        ```
 
-## Python Source Code
 
