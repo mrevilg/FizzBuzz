@@ -5,7 +5,7 @@ A few approaches to the classic question in C# and Python
 ## C# Source Code
 
 #1 we have a simple yet juvenile approach.
-```C#
+    ```C#
     static void Main(string[] args)
         {
             for (int i = 1; i < 100; i++)
