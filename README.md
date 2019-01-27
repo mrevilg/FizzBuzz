@@ -88,7 +88,7 @@ A few approaches to the classic question in C# and Python
        
 #4 An attempt at leveraging line spacing architecture, efficient and transparent.
     
-
+   
     static void Main(string[] args)
         {
             for (var i = 1; i <= 100; i++)
@@ -113,7 +113,18 @@ A few approaches to the classic question in C# and Python
 
             Console.ReadLine();
         }
-       
+ 
         
 ## Python Source Code
 
+```python
+for i in xrange(1, 101):
+    if i % 15 == 0:
+        print "FizzBuzz"
+    elif i % 3 == 0:
+        print "Fizz"
+    elif i % 5 == 0:
+        print "Buzz"
+    else:
+        print i
+ ```
